@@ -1,0 +1,39 @@
+/* a[href$=".co.jp"] {
+  color: red;
+}
+
+article p:last-child {
+  color: red;
+} */
+
+/* article p:not(:first-of-type) {
+  color: red
+} */
+
+/* p:hover {
+  background-color: pink;
+}
+p:not(:hover) {
+  background-color: pink;
+} */
+
+/* h1::before {
+  content: "!!!!!";
+} */
+
+/* p::first-letter {
+  color: red;
+  font-size: 40px;
+} */
+
+/* main > h1 {
+  color: red;
+} */
+/* 
+article p + p {
+  margin-top: 40px;
+  color: red;
+} */
+article h1 ~ p {
+  color: red;
+}
